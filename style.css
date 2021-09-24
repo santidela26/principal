@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color:#00539F;
+    font-size: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background-color:white;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+h1 { 
+    background-color:deeppink;
+    font-size: 50px;
+    margin: 0;
+    padding: 20px ;
+    color: blue;
+    text-shadow: 3px 3px 1px lightblue;
+}
+div.box{
+    display: flex;
+    justify-content: space-around;
+}
+div.seccion{
+    padding: 20px 20px;
+    border: 2px solid black;
+    background-color: gray;
+    display:flex;
+    justify-content: space-around;
+    
+}
+img {
+    background-color: mediumorchid;
+    width: 250px;
+    height: 150px;
+}
+p, li,h3 {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+a:link {
+    color: red;
+    text-shadow:cadetblue 3px 3px 1px;
+}
+a {
+    font-weight: bold;
+}
+li {
+    list-style-type: circle;
+}
+p.special {
+    text-decoration: underline black;
+    color:black;
+
+}
+video {
+    width: 250px;
+    height: 150px;
+}
+p.intro{
+    padding: 5px;
+    border: 1px solid #000;  
+}
+.boton{
+    width: 170px;
+    height: 40px;
+}
